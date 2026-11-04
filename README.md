@@ -1,9 +1,10 @@
 # صحتي (Sehati) — Health Information Navigator
 
+# (Sehati) — Health Information Navigator
+
 > **HAI Term Project 2026 | Track 9 | Principle: Safety and Ethics**  
-> **Team:** Mavericks Team  
-> **Course:** Human and Artificial Intelligence Interaction (Faculty of Computers & Artificial Intelligence, Benha University)  
-> **Live Demo:** [https://sehati-app.vercel.app](https://sehati-app.vercel.app) *(or your deployed Vercel URL)*
+> **Team:** Mavericks   
+> **Live Demo:** [https://sehati-app.vercel.app](https://sehati-app.vercel.app)
 
 ---
 
