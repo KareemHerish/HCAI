@@ -1,6 +1,6 @@
 # صحتي (Sehati) — Health Information Navigator
 
-# (Sehati) — Health Information Navigator
+# (Sehati) — Health Information Navigator 
 
 > **HAI Term Project 2026 | Track 9 | Principle: Safety and Ethics**  
 > **Team:** Mavericks   
