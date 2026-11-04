@@ -1,10 +1,8 @@
-# صحتي (Sehati) — Health Information Navigator
-
 # (Sehati) — Health Information Navigator 
 
-> **HAI Term Project 2026 | Track 9 | Principle: Safety and Ethics**  
+> **HAI Term Project 2026 | Track 9 | Principle: Safety and Ethics**   
 > **Team:** Mavericks   
-> **Live Demo:** [https://sehati-app.vercel.app](https://sehati-app.vercel.app)
+> **Live Demo:** ([https://sehati-app.vercel.app](https://sehati-new.vercel.app/))
 
 ---
 
