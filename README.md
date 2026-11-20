@@ -1,4 +1,4 @@
-# (Sehati) — Health Information Navigator 
+# (Sehati) — Health Information Navigator test
 
 > **Team:** Mavericks   
 > **Live Demo:** ([https://sehati-app.vercel.app](https://sehati-new.vercel.app/))
