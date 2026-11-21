@@ -6,13 +6,13 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { KnowledgeChunk, Language, ProcessedQuery, RetrievedChunk } from '../types';
+import { KnowledgeChunk, Language, ProcessedQuery, RetrievedChunk } from '../types.js';
 import {
   computeLocalMultilingualEmbedding,
   cosineSimilarity,
   embedTextsWithGemini,
-} from './embeddings';
-import { normalizeTextForSearch } from './queryProcessor';
+} from './embeddings.js';
+import { normalizeTextForSearch } from './queryProcessor.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
