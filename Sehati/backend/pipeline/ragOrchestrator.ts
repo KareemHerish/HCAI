@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ChatTurnHistory, Language, RagApiPayload } from '../types';
+import { ChatTurnHistory, Language, RagApiPayload } from '../types.js';
 import {
   generateGeneralEducationalAnswer,
   generateGroundedAnswer,
@@ -11,24 +11,24 @@ import {
   GenerateAnswerOptions,
   hasConfiguredGeminiKey,
   LLM_TIMEOUT_LIMITS,
-} from './answerGenerator';
-import { buildGroundedContext } from './contextBuilder';
+} from './answerGenerator.js';
+import { buildGroundedContext } from './contextBuilder.js';
 import {
   checkImmediateEmergency,
   SemanticClassifierOptions,
-} from './domainClassifier';
-import { validateEvidence } from './evidenceValidator';
-import { processQuery } from './queryProcessor';
+} from './domainClassifier.js';
+import { validateEvidence } from './evidenceValidator.js';
+import { processQuery } from './queryProcessor.js';
 import {
   buildInsufficientEvidencePayload,
   validateAndAssembleGeneralKnowledgeResponse,
   validateAndAssembleResponse,
-} from './responseValidator';
+} from './responseValidator.js';
 import {
   buildSafetyEarlyDecision,
   runSemanticSafetyFilter,
-} from './safetyFilter';
-import { vectorStore } from './vectorStore';
+} from './safetyFilter.js';
+import { vectorStore } from './vectorStore.js';
 
 export interface RagRequestOptions {
   message: string;
