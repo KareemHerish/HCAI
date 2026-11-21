@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { isAllowedSourceName, isAllowedSourceUrl } from '../config/allowlist';
+import { isAllowedSourceName, isAllowedSourceUrl } from '../config/allowlist.js';
 import {
   Language,
   ProcessedQuery,
@@ -11,9 +11,9 @@ import {
   RetrievedChunk,
   SourceCitation,
   StructuredRagResponseSchema,
-} from '../types';
-import { GeneralKnowledgeLlmOutput, RawLlmOutput } from './answerGenerator';
-import { EDUCATIONAL_DISCLAIMER_AR, EDUCATIONAL_DISCLAIMER_EN } from './safetyFilter';
+} from '../types.js';
+import { GeneralKnowledgeLlmOutput, RawLlmOutput } from './answerGenerator.js';
+import { EDUCATIONAL_DISCLAIMER_AR, EDUCATIONAL_DISCLAIMER_EN } from './safetyFilter.js';
 
 // Post-generation safety patterns to catch any accidental clinical/prescriptive leakage from LLM
 const PROHIBITED_OUTPUT_PATTERNS: Array<{ pattern: RegExp; reason: string }> = [
