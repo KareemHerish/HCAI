@@ -1,5 +1,4 @@
-# صحتي / Sehati — Health Information Navigator
-
+# Sehati — Health Information Navigator
 > **Bilingual (Arabic & English | RTL/LTR) Strict Medical Education Retrieval-Augmented Generation (RAG) Web Application**
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
