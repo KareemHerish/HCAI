@@ -4,7 +4,7 @@
  * Vercel Serverless Function Entry Point (handles /chat and /api/*)
  */
 
-import { createBackendApp } from '../backend/app';
+import { createBackendApp } from '../backend/app.js';
 
 const app = createBackendApp();
 
