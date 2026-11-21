@@ -5,12 +5,12 @@
 
 import { Router, Request, Response } from 'express';
 import { GoogleGenAI } from '@google/genai';
-import { APPROVED_SOURCES } from '../config/allowlist';
-import { processRagQuery } from '../pipeline/ragOrchestrator';
-import { runSemanticSafetyFilter } from '../pipeline/safetyFilter';
-import { vectorStore } from '../pipeline/vectorStore';
-import { LlmGenerationError, STRICT_GROUNDED_SYSTEM_PROMPT } from '../pipeline/answerGenerator';
-import { Language } from '../types';
+import { APPROVED_SOURCES } from '../config/allowlist.js';
+import { processRagQuery } from '../pipeline/ragOrchestrator.js';
+import { runSemanticSafetyFilter } from '../pipeline/safetyFilter.js';
+import { vectorStore } from '../pipeline/vectorStore.js';
+import { LlmGenerationError, STRICT_GROUNDED_SYSTEM_PROMPT } from '../pipeline/answerGenerator.js';
+import { Language } from '../types.js';
 
 export const chatRouter = Router();
 
@@ -179,6 +179,7 @@ async function handleChat(req: Request, res: Response) {
 
 chatRouter.post('/chat', handleChat);
 chatRouter.post('/api/chat', handleChat);
+chatRouter.post('/api/index', handleChat);
 
 chatRouter.post('/api/transcribe', async (req: Request, res: Response) => {
   try {
