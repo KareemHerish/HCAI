@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ChatTurnHistory, EvidenceValidationResult, ProcessedQuery } from '../types';
+import { ChatTurnHistory, EvidenceValidationResult, ProcessedQuery } from '../types.js';
 
 export interface BuiltContext {
   contextBlock: string;
