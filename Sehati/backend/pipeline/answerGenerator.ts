@@ -5,8 +5,8 @@
 
 import { GoogleGenAI, ThinkingLevel, Type } from '@google/genai';
 import { z } from 'zod';
-import { BuiltContext } from './contextBuilder';
-import { ChatTurnHistory, EvidenceValidationResult, Language, ProcessedQuery } from '../types';
+import { BuiltContext } from './contextBuilder.js';
+import { ChatTurnHistory, EvidenceValidationResult, Language, ProcessedQuery } from '../types.js';
 
 export const STRICT_GROUNDED_SYSTEM_PROMPT = `
 You are Health Information Navigator (صحتي - Sehati).
