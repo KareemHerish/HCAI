@@ -5,13 +5,13 @@
 
 import { Type } from '@google/genai';
 import { z } from 'zod';
-import { ChatTurnHistory, DomainCategory, Language } from '../types';
+import { ChatTurnHistory, DomainCategory, Language } from '../types.js';
 import {
   GenerateAnswerOptions,
   hasConfiguredGeminiKey,
   invokeGeminiJsonWithFallback,
   LLM_TIMEOUT_LIMITS,
-} from './answerGenerator';
+} from './answerGenerator.js';
 
 export interface ClassificationResult {
   category: DomainCategory;
