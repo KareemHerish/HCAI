@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ChatTurnHistory, Language, ProcessedQuery } from '../types';
-import { detectQueryLanguage } from './domainClassifier';
+import { ChatTurnHistory, Language, ProcessedQuery } from '../types.js';
+import { detectQueryLanguage } from './domainClassifier.js';
 
 // Bilingual Egyptian Arabic / MSA <-> English medical terminology expansion dictionary
 // Used ONLY for query normalization and cross-lingual retrieval matching (never alters medical intent)
