@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { isAllowedSourceName, isAllowedSourceUrl } from '../config/allowlist';
-import { EvidenceValidationResult, ProcessedQuery, RetrievedChunk } from '../types';
-import { tokenizeForBm25 } from './vectorStore';
+import { isAllowedSourceName, isAllowedSourceUrl } from '../config/allowlist.js';
+import { EvidenceValidationResult, ProcessedQuery, RetrievedChunk } from '../types.js';
+import { tokenizeForBm25 } from './vectorStore.js';
 
 const MIN_VALID_HYBRID_SCORE = 0.34;
 
