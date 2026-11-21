@@ -1,5 +1,6 @@
 # Sehati — Health Information Navigator
 > **Bilingual (Arabic & English | RTL/LTR) Strict Medical Education Retrieval-Augmented Generation (RAG) Web Application**
+> https://sehatii.vercel.app/
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white)
