@@ -4,7 +4,7 @@
  */
 
 import { GoogleGenAI } from '@google/genai';
-import { normalizeTextForSearch } from './queryProcessor';
+import { normalizeTextForSearch } from './queryProcessor.js';
 
 export const LOCAL_EMBED_DIM = 256;
 
