@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ChatTurnHistory, Language, RagApiPayload } from '../types';
+import { ChatTurnHistory, Language, RagApiPayload } from '../types.js';
 import {
   ClassificationResult,
   classifyDomainHeuristic,
   classifyDomainSemantic,
   detectQueryLanguage,
   SemanticClassifierOptions,
-} from './domainClassifier';
-import { normalizeFollowUpToUserRequest } from './responseValidator';
+} from './domainClassifier.js';
+import { normalizeFollowUpToUserRequest } from './responseValidator.js';
 
 export const EDUCATIONAL_DISCLAIMER_EN =
   'This response provides general medical information for educational purposes only. It does not provide diagnosis, treatment, prescriptions, or personalized medical advice.';
